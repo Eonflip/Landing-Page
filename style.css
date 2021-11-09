@@ -1,0 +1,21 @@
+/* https://www.w3schools.com/howto/howto_css_style_header.asp - Helpful link when you're ready to style your header */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 25vh;
+    gap: 10px;
+}
+
+.box-1{
+    width: 140px;
+    height: 140px;
+    background-color: skyblue;
+    border: 2px solid black;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
